@@ -11,14 +11,12 @@ export class DiscountComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  //פונ' המחזירה אמת או שקר
   public isWeekend(): boolean {
     const now = new Date();
     const dayOfWeek = now.getDay() + 1;
+    //כאשר היום הוא יום ראשון הפונ' תחזיר אמת
     return dayOfWeek === 1;
-}
-public theElse(): string {
-    const noDiscount = "no discount for today";
-    return noDiscount
 }
 
 }

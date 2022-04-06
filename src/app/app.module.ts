@@ -17,6 +17,7 @@ import { MenuComponent } from './Components/layout-area/menu/menu.component';
 
 @NgModule({
   declarations: [
+      //פה אנו מזמנים את כל הקומפוננטות שיצרנו למודול שלנו
     LayoutComponent,
     FooterComponent,
     HeaderComponent,
@@ -35,6 +36,7 @@ import { MenuComponent } from './Components/layout-area/menu/menu.component';
     FormsModule
   ],
   exports: [],
+  //פה אנו קובעים את הקומפוננטה הראשית של הפרוייקט שלנו וכך שאנו רושמים את שם המחלקה של אותה קומפוננטה
   bootstrap: [LayoutComponent]
 })
 export class AppModule { }

@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BrandsComponent implements OnInit {
 
+    //כאשר אנו רושמים משתנה כpublic אנו יכולים לזמן אותו מקובץ הhtml  שלנו
     public brands = [
         { id: 1, name: "adidas"},
         { id: 2, name: "nike"},

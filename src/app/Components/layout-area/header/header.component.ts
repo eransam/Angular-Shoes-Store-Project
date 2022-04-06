@@ -9,6 +9,7 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
+  //מה שנרשם בתוך הפונ' הזו מתבצע פעם אחת בעת טעינת הקומפוננטה 
   ngOnInit(): void {
   }
 
