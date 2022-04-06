@@ -1,0 +1,8 @@
+<div class="box">
+
+    <p *ngIf="isWeekend();else other_content">today: 10% off on all the socks
+    </p>
+    
+    <ng-template #other_content>no discount today...</ng-template>
+
+</div>
